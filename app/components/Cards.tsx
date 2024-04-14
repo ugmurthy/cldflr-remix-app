@@ -3,9 +3,8 @@ import clsx from 'clsx'
 
 function Cards({modelnames,title,desc,url,tagname, id}) {
 const color = ['badge-primary','badge-neutral','badge-info','badge-warning']
-
     const  models = modelnames.map((m,i)=> <div key={i} className={clsx('badge',color[i])}>{m}</div>)
-    const src = `https://picsum.photos/id/${id}/500/250`
+    const src =  `https://picsum.photos/id/${id}/500/250`
   return (
     <div>
  <div className="card w-96 bg-base-100 shadow-xl">

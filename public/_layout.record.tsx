@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Audio from '../components/Audio'
-import Mic from '../components/Mic'
+import Audio from '../app/components/Audio'
+import Mic from '../app/components/Mic'
 import Up from '~/components/Up'
 export async function loader() {
   return {}
