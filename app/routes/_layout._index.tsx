@@ -13,7 +13,7 @@ export default function Index() {
   const storyPic = 4
   const storyDesc = "Generate KidSafe Stories with Text and Voice inputs and Translates to German if needed."
 
-  const codeURL = '/chat?persona=CodingAssitant'
+  const codeURL = '/chat?persona=CodingAssistant'
   const code = ["codellama-7b"]
   const codePic = 6
   const codeDesc = "An Expert programming assistant and can help with code generation in various languages,one of the many tasks"
